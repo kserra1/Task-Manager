@@ -1,0 +1,49 @@
+/* Login.css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+  }
+  
+  .login-form,
+  .register-form {
+    width: 300px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    background-color: #123acc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d7e9d8;
+  }
+  
+  .error-message {
+    color: rgb(145, 10, 10);
+    margin-bottom: 12px;
+  }
+  
